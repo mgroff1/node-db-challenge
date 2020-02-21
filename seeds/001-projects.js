@@ -5,6 +5,7 @@ exports.seed = function (knex) {
     .truncate()
     .then(function () {
       // Inserts seed entries
+      
       return knex("projects").insert([{
           name: "Do Something With Your Life",
           description: "Very Confused ",
